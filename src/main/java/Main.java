@@ -8,7 +8,7 @@ public class Main {
 
         // Command Injection
         String command = "calc";
-        Runtime.getRuntime().exec(command);
+        System.out.println("Command execution disabled");
 
         // Hardcoded Password
         String password = "123456";
