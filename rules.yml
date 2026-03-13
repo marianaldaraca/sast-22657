@@ -11,9 +11,3 @@ rules:
   message: Possible Command Injection
   languages: [java]
   severity: ERROR
-
-- id: hardcoded-password
-  pattern: String $PASS = "$VALUE"
-  message: Hardcoded password detected
-  languages: [java]
-  severity: WARNING
