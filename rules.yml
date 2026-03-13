@@ -13,7 +13,7 @@ rules:
   severity: ERROR
 
 - id: hardcoded-password
-  pattern: String $PASS = "..."
+  pattern: String $PASS = "$VALUE"
   message: Hardcoded password detected
   languages: [java]
   severity: WARNING
